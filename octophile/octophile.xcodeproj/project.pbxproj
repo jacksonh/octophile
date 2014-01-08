@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79E49684062542489C27B496 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F54FE91D7E4D1983EB0DEE /* libPods.a */; };
+		7ACED309187DA252009C6F3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACED308187DA252009C6F3A /* Foundation.framework */; };
+		7ACED30B187DA252009C6F3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACED30A187DA252009C6F3A /* CoreGraphics.framework */; };
+		7ACED30D187DA252009C6F3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACED30C187DA252009C6F3A /* UIKit.framework */; };
+		7ACED313187DA252009C6F3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ACED311187DA252009C6F3A /* InfoPlist.strings */; };
+		7ACED315187DA252009C6F3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACED314187DA252009C6F3A /* main.m */; };
+		7ACED319187DA252009C6F3A /* OPHLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACED318187DA252009C6F3A /* OPHLAppDelegate.m */; };
+		7ACED31B187DA252009C6F3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACED31A187DA252009C6F3A /* Images.xcassets */; };
+		7ACED322187DA252009C6F3A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACED321187DA252009C6F3A /* XCTest.framework */; };
+		7ACED323187DA252009C6F3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACED308187DA252009C6F3A /* Foundation.framework */; };
+		7ACED324187DA252009C6F3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACED30C187DA252009C6F3A /* UIKit.framework */; };
+		7ACED32C187DA252009C6F3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ACED32A187DA252009C6F3A /* InfoPlist.strings */; };
+		7ACED32E187DA252009C6F3A /* octophileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACED32D187DA252009C6F3A /* octophileTests.m */; };
+		7ACED339187DA287009C6F3A /* OPHLProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACED338187DA287009C6F3A /* OPHLProfileViewController.m */; };
+		7ACED33C187DA503009C6F3A /* OPHLAppDelegate+OPHLExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACED33B187DA503009C6F3A /* OPHLAppDelegate+OPHLExtensions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ACED325187DA252009C6F3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ACED2FD187DA252009C6F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ACED304187DA252009C6F3A;
+			remoteInfo = octophile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		647C01AE2BE24405BCAB6783 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		71F54FE91D7E4D1983EB0DEE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACED305187DA252009C6F3A /* octophile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = octophile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACED308187DA252009C6F3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7ACED30A187DA252009C6F3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7ACED30C187DA252009C6F3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7ACED310187DA252009C6F3A /* octophile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "octophile-Info.plist"; sourceTree = "<group>"; };
+		7ACED312187DA252009C6F3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7ACED314187DA252009C6F3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ACED316187DA252009C6F3A /* octophile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "octophile-Prefix.pch"; sourceTree = "<group>"; };
+		7ACED317187DA252009C6F3A /* OPHLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPHLAppDelegate.h; sourceTree = "<group>"; };
+		7ACED318187DA252009C6F3A /* OPHLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPHLAppDelegate.m; sourceTree = "<group>"; };
+		7ACED31A187DA252009C6F3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7ACED320187DA252009C6F3A /* octophileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = octophileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACED321187DA252009C6F3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7ACED329187DA252009C6F3A /* octophileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "octophileTests-Info.plist"; sourceTree = "<group>"; };
+		7ACED32B187DA252009C6F3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7ACED32D187DA252009C6F3A /* octophileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = octophileTests.m; sourceTree = "<group>"; };
+		7ACED337187DA287009C6F3A /* OPHLProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPHLProfileViewController.h; sourceTree = "<group>"; };
+		7ACED338187DA287009C6F3A /* OPHLProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPHLProfileViewController.m; sourceTree = "<group>"; };
+		7ACED33A187DA503009C6F3A /* OPHLAppDelegate+OPHLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OPHLAppDelegate+OPHLExtensions.h"; sourceTree = "<group>"; };
+		7ACED33B187DA503009C6F3A /* OPHLAppDelegate+OPHLExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OPHLAppDelegate+OPHLExtensions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ACED302187DA252009C6F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACED30B187DA252009C6F3A /* CoreGraphics.framework in Frameworks */,
+				7ACED30D187DA252009C6F3A /* UIKit.framework in Frameworks */,
+				7ACED309187DA252009C6F3A /* Foundation.framework in Frameworks */,
+				79E49684062542489C27B496 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACED31D187DA252009C6F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACED322187DA252009C6F3A /* XCTest.framework in Frameworks */,
+				7ACED324187DA252009C6F3A /* UIKit.framework in Frameworks */,
+				7ACED323187DA252009C6F3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ACED2FC187DA252009C6F3A = {
+			isa = PBXGroup;
+			children = (
+				7ACED30E187DA252009C6F3A /* octophile */,
+				7ACED327187DA252009C6F3A /* octophileTests */,
+				7ACED307187DA252009C6F3A /* Frameworks */,
+				7ACED306187DA252009C6F3A /* Products */,
+				647C01AE2BE24405BCAB6783 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		7ACED306187DA252009C6F3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ACED305187DA252009C6F3A /* octophile.app */,
+				7ACED320187DA252009C6F3A /* octophileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ACED307187DA252009C6F3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ACED308187DA252009C6F3A /* Foundation.framework */,
+				7ACED30A187DA252009C6F3A /* CoreGraphics.framework */,
+				7ACED30C187DA252009C6F3A /* UIKit.framework */,
+				7ACED321187DA252009C6F3A /* XCTest.framework */,
+				71F54FE91D7E4D1983EB0DEE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7ACED30E187DA252009C6F3A /* octophile */ = {
+			isa = PBXGroup;
+			children = (
+				7ACED317187DA252009C6F3A /* OPHLAppDelegate.h */,
+				7ACED318187DA252009C6F3A /* OPHLAppDelegate.m */,
+				7ACED33A187DA503009C6F3A /* OPHLAppDelegate+OPHLExtensions.h */,
+				7ACED33B187DA503009C6F3A /* OPHLAppDelegate+OPHLExtensions.m */,
+				7ACED337187DA287009C6F3A /* OPHLProfileViewController.h */,
+				7ACED338187DA287009C6F3A /* OPHLProfileViewController.m */,
+				7ACED31A187DA252009C6F3A /* Images.xcassets */,
+				7ACED30F187DA252009C6F3A /* Supporting Files */,
+			);
+			path = octophile;
+			sourceTree = "<group>";
+		};
+		7ACED30F187DA252009C6F3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ACED310187DA252009C6F3A /* octophile-Info.plist */,
+				7ACED311187DA252009C6F3A /* InfoPlist.strings */,
+				7ACED314187DA252009C6F3A /* main.m */,
+				7ACED316187DA252009C6F3A /* octophile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ACED327187DA252009C6F3A /* octophileTests */ = {
+			isa = PBXGroup;
+			children = (
+				7ACED32D187DA252009C6F3A /* octophileTests.m */,
+				7ACED328187DA252009C6F3A /* Supporting Files */,
+			);
+			path = octophileTests;
+			sourceTree = "<group>";
+		};
+		7ACED328187DA252009C6F3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ACED329187DA252009C6F3A /* octophileTests-Info.plist */,
+				7ACED32A187DA252009C6F3A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ACED304187DA252009C6F3A /* octophile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACED331187DA252009C6F3A /* Build configuration list for PBXNativeTarget "octophile" */;
+			buildPhases = (
+				9BF428D683454DFC816DC98A /* Check Pods Manifest.lock */,
+				7ACED301187DA252009C6F3A /* Sources */,
+				7ACED302187DA252009C6F3A /* Frameworks */,
+				7ACED303187DA252009C6F3A /* Resources */,
+				94C2EF35B665479DB13F164D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = octophile;
+			productName = octophile;
+			productReference = 7ACED305187DA252009C6F3A /* octophile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ACED31F187DA252009C6F3A /* octophileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACED334187DA252009C6F3A /* Build configuration list for PBXNativeTarget "octophileTests" */;
+			buildPhases = (
+				7ACED31C187DA252009C6F3A /* Sources */,
+				7ACED31D187DA252009C6F3A /* Frameworks */,
+				7ACED31E187DA252009C6F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ACED326187DA252009C6F3A /* PBXTargetDependency */,
+			);
+			name = octophileTests;
+			productName = octophileTests;
+			productReference = 7ACED320187DA252009C6F3A /* octophileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ACED2FD187DA252009C6F3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OPHL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = SyntaxTree;
+				TargetAttributes = {
+					7ACED31F187DA252009C6F3A = {
+						TestTargetID = 7ACED304187DA252009C6F3A;
+					};
+				};
+			};
+			buildConfigurationList = 7ACED300187DA252009C6F3A /* Build configuration list for PBXProject "octophile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7ACED2FC187DA252009C6F3A;
+			productRefGroup = 7ACED306187DA252009C6F3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ACED304187DA252009C6F3A /* octophile */,
+				7ACED31F187DA252009C6F3A /* octophileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ACED303187DA252009C6F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACED313187DA252009C6F3A /* InfoPlist.strings in Resources */,
+				7ACED31B187DA252009C6F3A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACED31E187DA252009C6F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACED32C187DA252009C6F3A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94C2EF35B665479DB13F164D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BF428D683454DFC816DC98A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ACED301187DA252009C6F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACED33C187DA503009C6F3A /* OPHLAppDelegate+OPHLExtensions.m in Sources */,
+				7ACED339187DA287009C6F3A /* OPHLProfileViewController.m in Sources */,
+				7ACED315187DA252009C6F3A /* main.m in Sources */,
+				7ACED319187DA252009C6F3A /* OPHLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACED31C187DA252009C6F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACED32E187DA252009C6F3A /* octophileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ACED326187DA252009C6F3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ACED304187DA252009C6F3A /* octophile */;
+			targetProxy = 7ACED325187DA252009C6F3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ACED311187DA252009C6F3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ACED312187DA252009C6F3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7ACED32A187DA252009C6F3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ACED32B187DA252009C6F3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ACED32F187DA252009C6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7ACED330187DA252009C6F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ACED332187DA252009C6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647C01AE2BE24405BCAB6783 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "octophile/octophile-Prefix.pch";
+				INFOPLIST_FILE = "octophile/octophile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7ACED333187DA252009C6F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647C01AE2BE24405BCAB6783 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "octophile/octophile-Prefix.pch";
+				INFOPLIST_FILE = "octophile/octophile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7ACED335187DA252009C6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/octophile.app/octophile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "octophile/octophile-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "octophileTests/octophileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7ACED336187DA252009C6F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/octophile.app/octophile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "octophile/octophile-Prefix.pch";
+				INFOPLIST_FILE = "octophileTests/octophileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ACED300187DA252009C6F3A /* Build configuration list for PBXProject "octophile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACED32F187DA252009C6F3A /* Debug */,
+				7ACED330187DA252009C6F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ACED331187DA252009C6F3A /* Build configuration list for PBXNativeTarget "octophile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACED332187DA252009C6F3A /* Debug */,
+				7ACED333187DA252009C6F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ACED334187DA252009C6F3A /* Build configuration list for PBXNativeTarget "octophileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACED335187DA252009C6F3A /* Debug */,
+				7ACED336187DA252009C6F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ACED2FD187DA252009C6F3A /* Project object */;
+}
