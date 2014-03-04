@@ -89,9 +89,14 @@
 
 - (void)ophl_fetchUserInfoFromButton:(UIButton *)button
 {
-	[[[self client] fetchUserInfo] subscribeNext:^(OCTUser *user) {
+	OCTRepository *octoKit = [[OCTRepository alloc] initWithDictionary:@{
+		@"ownerLogin" : @"octokit",
+		@"name" : @"octokit.objc"
+	} error:nil];
+
+	[[[self client] fetchUserInfo] subscribeNext:^(id user) {
 		NSLog (@"FETCHED INFO:  %@", user);
-		[[self userImageView] setImageWithURL:[user avatarURL]];
+		// [[self userImageView] setImageWithURL:[user avatarURL]];
 	} error:^(NSError *error) {
 		NSLog (@"ERROR FETCHING USER INFO:  %@", error);
 	}];

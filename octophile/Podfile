@@ -2,7 +2,7 @@
 platform :ios, '7.0'
 
 pod 'SSKeychain',	'~> 1.2.0'
-pod 'OctoKit',		'~> 0.4'
+pod 'OctoKit',          :path => '~/Projects/github/octokit.objc/'
 
 
 
