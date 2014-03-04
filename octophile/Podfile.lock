@@ -18,15 +18,19 @@ PODS:
   - SSKeychain (1.2.1)
 
 DEPENDENCIES:
-  - OctoKit (~> 0.4)
+  - OctoKit (from `~/Projects/github/octokit.objc/`)
   - SSKeychain (~> 1.2.0)
+
+EXTERNAL SOURCES:
+  OctoKit:
+    :path: ~/Projects/github/octokit.objc/
 
 SPEC CHECKSUMS:
   AFNetworking: 61fdd49e2ffe6380378df37b3b6e70630bb9dd66
   ISO8601DateFormatter: 00944e437ea647f4244454ce8809d313861d08de
   Mantle: abc3b0c81bc66eb624cf9cebb8640e377d5a44ae
-  OctoKit: bbd2c864e5ab1c2e47eac1f9a21e16c86cc86dc4
+  OctoKit: b317dd17029faa4cbfc6a17991b50ae3782ed8a5
   ReactiveCocoa: 0db710a0afa1c627a64470e5c912a3870d4854ae
   SSKeychain: d18926838c2e7cd342e2a49e9f869858e49f035a
 
-COCOAPODS: 0.28.0
+COCOAPODS: 0.29.0
