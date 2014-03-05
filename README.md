@@ -1,4 +1,4 @@
 octophile
 =========
 
-Command line app for getting info on GitHub users
+Test app for octokit, doesnt really do anything useful. Maybe someday it will, maybe not.
