@@ -3,7 +3,7 @@
 //  octophile
 //
 //  Created by Jackson Harper on 1/8/14.
-//  Copyright (c) 2014 SyntaxTree. All rights reserved.
+//  Copyright (c) 2014 Harper Semiconductors, Inc.
 //
 
 #import "OPHLAppDelegate+OPHLExtensions.h"
