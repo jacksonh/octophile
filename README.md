@@ -1,4 +1,4 @@
 octophile
 =========
 
-Command line app for getting info on GitHub users
+Show GitHub user info using OctoKit.
